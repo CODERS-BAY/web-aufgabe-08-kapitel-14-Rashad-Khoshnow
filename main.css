@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle, rgba(0, 86, 103, 1) 0%, rgb(24, 22, 48) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.con,
+img {
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    object-fit: contain;
+}
+
+.flex-item {
+    min-width: 300px;
+}
+
+div.con h1 {
+    color: rgb(0, 183, 255);
+    margin-top: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+div.con ul {
+    color: white;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.bo img {
+    max-width: 450px;
+}
+
+.bo {
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.bo h1 {
+    color: rgb(0, 183, 255);
+    margin-top: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+div.bo ul {
+    color: white;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div.splash {
+    display: flex;
+}
+
+div.splash img {
+    position: relative;
+    right: 730px;
+}
+
+img.spla:hover {
+    margin-left: 725px;
+}
+
+div.splash div h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    right: 610px;
+    margin-top: 347px;
+}
+
+img.arrow {
+    max-height: 160px;
+    margin-top: 285px;
+    margin-left: 10px;
+}
